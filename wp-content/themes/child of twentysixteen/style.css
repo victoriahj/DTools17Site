@@ -1,0 +1,25 @@
+/*
+Theme Name: Victoria's 2016 Child Theme
+Description: Child theme based on twentysixteen
+Author: Victoria Jin
+Version: 1.0
+Template: twentysixteen
+*/
+
+@import url('../twentysixteen/style.css');
+
+p {
+	color: #badfff;
+}
+
+.site-header-main {
+	background-color: blue;
+}
+
+.site-header-home {
+	background-color: pink;
+}
+
+.site-header-about {
+	background-color: purple;
+}
