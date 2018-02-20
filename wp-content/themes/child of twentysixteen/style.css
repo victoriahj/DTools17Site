@@ -12,6 +12,10 @@ p {
 	color: #badfff;
 }
 
+p.site-description {
+	font-family: Helvetica, sans-serif;
+}
+
 .site-header-main {
 	background-color: red;
 }
@@ -23,3 +27,4 @@ p {
 .site-header-about {
 	background-color: purple;
 }
+
