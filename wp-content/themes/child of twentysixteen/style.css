@@ -13,23 +13,22 @@ Template: twentysixteen
 /*font-family: 'Viga', sans-serif;*/
 /*font-family: 'Roboto Condensed', sans-serif;*/
 
+
+
+body {
+	background-color: #e8eef6;
+}
+
+.site {
+	background-color: #e8eef6;
+}
+
 p {
-	color: #badfff;
+	color: #000000;
 }
 
 p.site-description {
 	font-family: 'Viga', sans-serif;
 }
 
-.site-header-main {
-	background-color: red;
-}
-
-.site-header-home {
-	background-color: pink;
-}
-
-.site-header-about {
-	background-color: purple;
-}
 
