@@ -9,10 +9,11 @@ Template: twentysixteen
 @import url('../twentysixteen/style.css');
 @import url('https://fonts.googleapis.com/css?family=Viga');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Karla');
 
 /*font-family: 'Viga', sans-serif;*/
 /*font-family: 'Roboto Condensed', sans-serif;*/
-
+/*font-family: 'Karla', sans-serif;*/
 
 
 body {
@@ -23,12 +24,26 @@ body {
 	background-color: #e8eef6;
 }
 
+/*HEADER*/
+p.site-title {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p.site-description {
+	font-family: 'Karla', sans-serif;
+	text-align: right;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0px;
+	font-size: 16px;
+}
+/*HEADER END*/
+
+
 p {
 	color: #000000;
 }
 
-p.site-description {
-	font-family: 'Viga', sans-serif;
-}
 
 
