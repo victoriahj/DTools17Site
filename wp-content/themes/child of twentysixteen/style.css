@@ -18,11 +18,24 @@ Template: twentysixteen
 
 body {
 	background-color: #e8eef6;
+	font-family: 'Karla', sans-serif;
 }
 
 .site {
 	background-color: #e8eef6;
 }
+
+/*LINKS*/
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 3px 3px 7px #f7caa7;
+}
+.site-branding .site-title a:hover, .site-branding .site-title a:focus{
+	color: #ab838f;
+}
+
+/*LINKS END*/
 
 /*HEADER*/
 p.site-title {
@@ -70,7 +83,6 @@ h1.entry-title, h2.entry-title {
 
 p {
 	color: #000000;
-	font-family: 'Karla', sans-serif;
 }
 
 
