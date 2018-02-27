@@ -38,11 +38,39 @@ p.site-description {
 	margin: 0px;
 	font-size: 16px;
 }
+
+div.site-header-main {
+	border-bottom: 2px solid #000000;
+}
+
+div.site-branding {
+	margin-bottom: 7px;
+}
+
+header#masthead.site-header {
+	padding: 0px;
+	margin: 55px;
+	margin-top: 0px;
+}
+
+div#site-header-menu.site-header-menu{
+	margin-top: 88px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+ul#menu-main-navigation.primary-menu {
+	font-family: 'Karla', sans-serif;
+}
 /*HEADER END*/
 
+h1.entry-title, h2.entry-title {
+	font-family: 'Karla', sans-serif;
+}
 
 p {
 	color: #000000;
+	font-family: 'Karla', sans-serif;
 }
 
 
