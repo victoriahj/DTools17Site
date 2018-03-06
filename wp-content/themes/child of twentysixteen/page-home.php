@@ -21,7 +21,7 @@ get_header(); ?>
 
 			// Include the page content template.
 			//using a new template to load content on home page called no-title-page.php
-			get_template_part( 'no-sidebar-no-title', 'page' );
+			get_template_part( 'no-title', 'page' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) {
